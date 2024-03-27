@@ -165,10 +165,9 @@ const Logo = styled.div`
   width: 100%;
   height: 100%;
   opacity: 0.5;
-`
+`;
 
 export function UserLrngMgmt() {
-
   const navigate = useNavigate();
 
   // const navigateToMaterial = () => {
@@ -177,7 +176,7 @@ export function UserLrngMgmt() {
 
   const navigateToLectureList = () => {
     navigate("/lecture-list");
-  }
+  };
 
   const navigateToClassRoom = () => {
     navigate("/stud-class-room");
@@ -212,16 +211,18 @@ export function UserLrngMgmt() {
                   </Button>
                 </SubInner1>
               </Inner1>
-               <Inner1>
+              <Inner1>
                 <Text1>
                   <h2>내가한 질문 보기</h2>
                   <h4 onClick={navigateToClassRoom}>전체보기 &#62;</h4>
                 </Text1>
                 <SubInner1>
                   <Text2>강의 명 : 키오스크 1-1</Text2>
-                  <Text3>질문 제목 : 수강 중 </Text3>
+                  <Text3>질문 제목 : 안녕하세요 </Text3>
                   <Button>
-                    <button onClick={navigateToLectureList}>질문하러 가기</button>
+                    <button onClick={navigateToLectureList}>
+                      질문하러 가기
+                    </button>
                     {/* <button onClick={navigateToMaterial}>자료 바로보기</button> */}
                   </Button>
                 </SubInner1>
@@ -237,7 +238,9 @@ export function UserLrngMgmt() {
                   <Text2>아직 수료한 강의가 없습니다.</Text2>
                   <Text3></Text3>
                   <Button>
-                    <button onClick={navigateToCompletedLecture}>강의 재수강</button>
+                    <button onClick={navigateToCompletedLecture}>
+                      강의 재수강
+                    </button>
                   </Button>
                 </SubInner1>
               </Inner3>

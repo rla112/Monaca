@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\admin\Desktop\Monaca-main\Backend"/>
 			<item value="C:\Users\admin\Desktop\Monaca2-main\Backend"/>
 		</list>
 		<list key="projectNameTemplate">

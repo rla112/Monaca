@@ -167,7 +167,6 @@ export function AdminLMgnt() {
 
   return (
     <>
-      <NavBar />
       <Container>
         <Wrapper>
           <AdminBar />
