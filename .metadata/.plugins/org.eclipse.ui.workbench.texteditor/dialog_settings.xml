@@ -8,6 +8,7 @@
 		<item key="isRegEx" value="false"/>
 		<item key="selection" value="api/lectureCart/delete"/>
 		<list key="findhistory">
+			<item value="e"/>
 			<item value="api/lectureCart/delete"/>
 		</list>
 		<list key="replacehistory">
